@@ -1,0 +1,10 @@
+remotename new-fast-vpn
+linkname new-fast-vpn
+ipparam new-fast-vpn
+pty "pptp <ip address> --nolaunchpppd "
+name michael
+usepeerdns
+persist
+require-mppe
+refuse-eap
+noauth
