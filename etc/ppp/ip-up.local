@@ -2,6 +2,16 @@
 #network=`echo $IPREMOTE | awk -F\. '{print $1"."$2"."$3".0/24"}'`
 #route add -net $network $IFNAME
 # for 
+route add -net 31.172.0.0/18 gw $5
+route add -net 86.30.208.0/21 gw $5
+route add -net 108.168.128.0/17 gw $5
+route add -net 202.12.28.0/23 gw $5
+route add -net 58.152.0.0/15 gw $5
+route add -net 199.212.0.0/24 gw $5
+route add -net 175.192.0.0/13 gw $5
+route add -net 175.208.0.0/13 gw $5
+route add -net 50.128.0.0/9 gw $5
+route add -net 54.192.0.0/16 gw $5
 route add -net 66.6.32.0/20 gw $5
 route add -net 192.30.252.0/22 gw $5
 route add -net 108.174.0.0/20 gw $5
