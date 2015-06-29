@@ -2,9 +2,9 @@
 
 # need root user run this script.
 
-echo "running:(route add -net $1 gw 10.99.0.100)"
+echo "running:(route add -net $1 gw 192.168.13.199)"
 
-route add -net $1 gw 10.99.0.100
+route add -net $1 gw 192.168.13.199
 
 echo "write to file:(ip-up.local)"
 rt1="\$5"
