@@ -440,3 +440,4 @@ route add -net 67.160.0.0/11 gw $4
 route add -net 93.44.0.0/14 gw $4
 route add -net 104.196.0.0/14 gw $4
 route add -net 52.0.0.0/11 gw $4
+route add -net 184.168.0.0/16 gw $4
