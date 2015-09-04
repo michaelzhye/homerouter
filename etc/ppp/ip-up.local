@@ -488,3 +488,6 @@ route add -net 93.44.0.0/14 gw $5
 route add -net 104.196.0.0/14 gw $5
 route add -net 52.0.0.0/11 gw $5
 route add -net 184.168.0.0/16 gw $5
+route add -net 69.4.224.0/20 gw $5
+route add -net 5.254.113.0/24 gw $5
+route add -net 93.44.0.0/14 gw $5
