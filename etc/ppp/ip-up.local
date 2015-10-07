@@ -655,3 +655,11 @@ route add -net 82.221.128.0/19 gw $5
 route add -net 201.150.64.0/21 gw $5
 route add -net 27.32.0.0/15 gw $5
 route add -net 94.60.0.0/14 gw $5
+route add -net 180.190.64.0/18 gw $5
+route add -net 187.128.0.0/12 gw $5
+route add -net 58.140.0.0/14 gw $5
+route add -net 84.121.0.0/16 gw $5
+route add -net 92.247.32.0/19 gw $5
+route add -net 199.101.116.0/22 gw $5
+route add -net 104.154.0.0/15 gw $5
+route add -net 176.10.128.0/17 gw $5
