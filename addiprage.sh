@@ -14,3 +14,4 @@ echo "write to file:(ip-up.xl2tp)"
 rt2="\$4"
 echo "route add -net $1 gw $rt2" >> /etc/ppp/ip-up.xl2tp
 
+echo "$1" >> /home/michael/homeroute/iplist.txt
