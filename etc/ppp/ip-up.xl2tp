@@ -616,3 +616,9 @@ route add -net 92.247.32.0/19 gw $4
 route add -net 199.101.116.0/22 gw $4
 route add -net 104.154.0.0/15 gw $4
 route add -net 176.10.128.0/17 gw $4
+route add -net 46.101.128.0/17 gw $4
+route add -net 87.106.0.0/16 gw $4
+route add -net 52.0.0.0/11 gw $4
+route add -net 69.192.0.0/16 gw $4
+route add -net 2.19.112.0/20 gw $4
+route add -net 66.220.144.0/20 gw $4
